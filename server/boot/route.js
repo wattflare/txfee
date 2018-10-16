@@ -4,9 +4,9 @@ module.exports = function(app) {
     //res.send('pong');
     console.log('/webhook/btcpay-ipn called: ')
     
-    console.log({req.headers});
-    console.log({req.query});
-    console.log({req.body});
+    //console.log({req.headers});
+    //console.log(req.query);
+    console.log(req.body);
 
     console
     res.send('OK');
